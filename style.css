@@ -1,0 +1,299 @@
+
+
+body{
+	background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Grey_background.jpg");
+	font-family: Lato;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/ObQr5XYcoH0WBoUxiaYK3_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+h1, h2, h3{
+    color: #002b5a;
+    margin-bottom:42px;
+    text-transform: capitalize;
+}
+
+h1{
+    font-size:42px;
+    font-weight: 200;
+}
+h2{
+	font-size:40px;
+    font-weight: 200;
+}
+h3{
+    font-size:15px;
+    font-weight: normal;
+}
+#banner{
+	position: relative;
+    width:100%;
+}
+.images{
+	Background-Color: #ffffff;
+    width:100%;
+    height:auto;
+}
+.insideimage{
+    float: left;
+    position: absolute;
+    right: 0%;
+    bottom: 3.8%;
+    z-index: 1000;
+    font-size: x-large;
+    color: #FFFFFF;
+    font-weight: bold;
+    width:25%;
+}
+#main{
+	position: relative;
+    width:100%;
+    height: 350px;
+}
+#sub-main-part1{
+	position:absolute;
+    width:98%;
+    top: 0%;
+    margin: 4%;
+}
+#part1-left{
+	text-align: justify;
+	float: left;
+	width: 50%;
+}
+#part1-left-head{
+	float: left;
+    width: 100%;
+    text-align: left;
+}
+.pheadcontent{
+	Color:#333;
+    font-Family: Lato;
+    font-Size:18px;
+}
+#part1-right{
+	float: right;
+	background-color: whitesmoke;
+	background-position: 5% 5%;
+	padding-left: 20px;
+	padding-right: 50px;
+	margin: 40px 220px 5px 100px;
+}
+#state-finder{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.loremtext{
+	Color: #002b5a;
+	margin-bottom: 5px;
+	font-Size: 12px;
+}
+#selecttext{
+	margin-bottom: 20px;
+}
+#states{
+	Color: #002b5a;
+	font-Size: 13px;
+}
+#sub-main-part2{
+	position: absolute;
+    background:whitesmoke;
+    width:95%;
+    top:90%;
+    left:2%;
+	height: 175%;
+}
+.part2-head{
+    margin-left:5%;
+}
+.row::after {
+    content: "";
+    clear: initial;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 10px 30px 8px 20px;
+	margin-left: 40px;
+}
+.col-4 {
+	width: 25%;
+}
+.learnmore{
+	background-color: #ffffff;
+	Color: #002b5a;
+	font-Size: 14px;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+    width:25%;
+	padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.arrowbtn{
+	padding-left: 1.9px;
+}
+#sub-main-part3{
+	position:absolute;
+    background: whitesmoke;
+    width:95%;
+    top:268%;
+    left:2%;
+	height: 150%;
+}
+.producthead{
+	position:absolute;
+    width:70%;
+    float:left;
+    margin-left:5%;
+}
+.filter-by{
+	position:relative;
+	float:right;
+    width:20%;
+    margin-right: 1%;
+	margin-top: 4%;
+}
+.col-3 {
+	width: 16.66%;
+}
+.backproduct{
+	background-color: white;
+}
+.product{
+	margin-top:8%;
+}
+.producttitle{
+	Color: #002b5a;
+	font-Size: 17px;
+	width:90%;
+    margin: 5%;
+}
+.starting{
+	Color: #4987ca;
+	font-Size: 13px;
+	width:90%;
+    margin: 5%;
+}
+.proddata{
+	font-Size: 13px;
+	Color: #666666;
+	width:90%;
+    margin: 5%;
+}
+.learn{
+	font-Size: 13px;
+	Color: #666666;
+	width:90%;
+    margin: 5%;
+}
+.productimage{
+	padding:1%;
+    margin:4%;
+}
+#product-desc{
+	position:absolute;
+    background: whitesmoke;
+    width:95%;
+    top:40%;
+    left:2%;
+    margin-left: 0%;
+    margin-right: auto;
+    margin-top: 100%;
+    border-width: 1px;
+    visibility: hidden;
+}
+#product-desc-close{
+	float: right;
+	margin-top: 2%;
+	margin-right: 2%;
+}
+#product-desc-title{
+	Color: #002b5a;
+	font-Size: 24px;
+	width: 90%;
+	margin:2%;
+    margin-top:4%;
+	margin-left:4%;
+}
+#product-desc-price{
+	Color: #4987ca;
+	font-Size: 19px;
+	width: 90%;
+	margin:2%;
+	margin-left:4%;
+}
+#product-desc-left{
+	float: left;
+	width: 40%;
+    margin-top:1%;
+	margin-left:4%;
+    text-align: justify;
+	
+}
+#product-desc-right{
+    float:right;
+	width:40%;
+    margin-top:1%;
+    margin-right: 9%;
+}
+#buy{
+	width: 45%;
+    margin-top: 0%;
+    margin-left: 4%;
+}
+#buyonline{
+	background-color: #002b5a;
+	Color: #ffffff;
+	font-Size: 14px;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 2px #fff inset;
+	padding:2%;
+}
